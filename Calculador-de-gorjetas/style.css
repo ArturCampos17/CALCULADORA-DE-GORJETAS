@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@300&display=swap');
+
+
+body{
+    font-weight: bold;
+    background: #88a2ff;
+    font-size: 20px;
+    font-family: Lato, sans-serif;
+}
+
+
+#container{
+    size: 1000;
+    height: 525px;
+    width: 360px;
+    margin: 100px auto;
+    background: #ffffff;
+    box-shadow: 3px 3px 3px #44514c;
+    border-radius: 20px;
+}
+
+
+.title{
+    background:#4956e8dc;
+    color: #ffffff;
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bolder;
+    border-top-left-radius:20px ;
+    border-top-right-radius: 20px;
+    text-align: center;
+}
+
+.tipsForm{
+    padding-left: 10px;
+}
+
+.formIput{
+    background: var(#ffffff);
+    width: 80px;
+    padding: 5px 8px 5px 8px;
+    
+}
+
+.formIput:focus{
+    border: 1px solid, #5e50da;
+    outline: none;
+}
+
+.formSelect{
+    width: 180px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.formSubmit, .clear{
+    margin-left: 40px;
+    margin-top: 5px;
+    padding: 15px;
+    width: 100px;
+    background: #5e50da;
+    font-size: 20px;
+    border-radius: 20px 20px 20px 20px ;
+    color: #ffffff;
+
+}
+
+button:hover {
+    background-color:  #5e50dac6;
+    color:white; 
+    transform: scale(1);
+    transition: all 0.5s;
+}
+
+#totaltip{
+    font-size: 20px;
+    margin-top: 7px;
+    text-align: center;
+    
+}
